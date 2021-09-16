@@ -16,5 +16,41 @@ namespace ACMECalc
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int i, j;
+            i = int.Parse(textBox1.Text);
+            j = int.Parse(textBox2.Text);
+
+            listBox1.Items.Add($"{i} + {j} = {i + j}");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int i, j;
+            i = int.Parse(textBox1.Text);
+            j = int.Parse(textBox2.Text);
+
+            listBox1.Items.Add($"{i} - {j} = {i - j}");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            int i, j;
+            i = int.Parse(textBox1.Text);
+            j = int.Parse(textBox2.Text);
+
+            listBox1.Items.Add($"{i} / {j} = {i / j}");
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int i, j;
+            i = int.Parse(textBox1.Text);
+            j = int.Parse(textBox2.Text);
+
+            listBox1.Items.Add($"{i} * {j} = {i * j}");
+        }
     }
 }
