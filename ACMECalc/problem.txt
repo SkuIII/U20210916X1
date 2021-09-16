@@ -1,1 +1,10 @@
-﻿
+﻿När inmatningen är text så kraschar programmet eftersom det förväntar sig en double som input
+Det kan lösas genom att ha en if sats som fångar upp inputen om det inte är ett nummer och sen 
+en showmessage box som säger åt användaren att fixa problemet
+
+Talen i listboxrutan behöver även avrundas när division används, finns säkert en funktion för det som jag inte har hittat
+
+Koden är vädligt repetativ, känns som att det finns något bättre sätt att göra det på kanske med en egen funktion
+
+Sedan är gränssnittet inte det bästa, typsnittet behöver vara lite större, boxarna lättare att anpassa osv.
+Det går säkert att fixa med några inställningar
