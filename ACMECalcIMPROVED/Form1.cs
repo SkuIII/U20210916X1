@@ -12,6 +12,7 @@ namespace ACMECalcIMPROVED
 {
     public partial class Form1 : Form
     {
+        CalculatorEngine MyEngine = new CalculatorEngine();
         public Form1()
         {
             InitializeComponent();
@@ -19,38 +20,42 @@ namespace ACMECalcIMPROVED
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            double i, j;
-            i = double.Parse(textBox1.Text);
-            j = double.Parse(textBox2.Text);
+            double i = double.Parse(textBox1.Text);
+            double j = double.Parse(textBox2.Text);
 
-            listBox1.Items.Add($"{i} + {j} = {i + j}");
+            double answer = MyEngine.Add(i, j);
+
+            listBox1.Items.Add($"{i} + {j} = {answer}");
         }
 
         private void btnSubtract_Click(object sender, EventArgs e)
         {
-            double i, j;
-            i = double.Parse(textBox1.Text);
-            j = double.Parse(textBox2.Text);
+            double i = double.Parse(textBox1.Text);
+            double j = double.Parse(textBox2.Text);
+            
+            double answer = MyEngine.Subtract(i, j);
 
-            listBox1.Items.Add($"{i} - {j} = {i - j}");
+            listBox1.Items.Add($"{i} - {j} = {answer}");
         }
 
         private void btnDivision_Click(object sender, EventArgs e)
         {
-            double i, j;
-            i = double.Parse(textBox1.Text);
-            j = double.Parse(textBox2.Text);
+            double i = double.Parse(textBox1.Text);
+            double j = double.Parse(textBox2.Text);
 
-            listBox1.Items.Add($"{i} / {j} = {i / j}");
+            double answer = MyEngine.Divide(i, j);
+
+            listBox1.Items.Add($"{i} / {j} = {answer}");
         }
 
         private void btnMultiply_Click(object sender, EventArgs e)
         {
-            double i, j;
-            i = double.Parse(textBox1.Text);
-            j = double.Parse(textBox2.Text);
+            double i = double.Parse(textBox1.Text);
+            double j = double.Parse(textBox2.Text);
 
-            listBox1.Items.Add($"{i} * {j} = {i * j}");
+            double answer = MyEngine.Multiply(i, j);
+
+            listBox1.Items.Add($"{i} * {j} = {answer}");
         }
     }
 }

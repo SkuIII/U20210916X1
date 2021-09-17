@@ -40,41 +40,45 @@ namespace ACMECalcIMPROVED
             // 
             // btnAdd
             // 
+            this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btnAdd.Location = new System.Drawing.Point(81, 195);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(138, 70);
             this.btnAdd.TabIndex = 0;
-            this.btnAdd.Text = "button1";
+            this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnSubtract
             // 
+            this.btnSubtract.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btnSubtract.Location = new System.Drawing.Point(235, 195);
             this.btnSubtract.Name = "btnSubtract";
             this.btnSubtract.Size = new System.Drawing.Size(138, 70);
             this.btnSubtract.TabIndex = 1;
-            this.btnSubtract.Text = "button2";
+            this.btnSubtract.Text = "-";
             this.btnSubtract.UseVisualStyleBackColor = true;
             this.btnSubtract.Click += new System.EventHandler(this.btnSubtract_Click);
             // 
             // btnDivision
             // 
+            this.btnDivision.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
             this.btnDivision.Location = new System.Drawing.Point(391, 195);
             this.btnDivision.Name = "btnDivision";
             this.btnDivision.Size = new System.Drawing.Size(138, 70);
             this.btnDivision.TabIndex = 2;
-            this.btnDivision.Text = "button3";
+            this.btnDivision.Text = "/";
             this.btnDivision.UseVisualStyleBackColor = true;
             this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
             // btnMultiply
             // 
+            this.btnMultiply.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
             this.btnMultiply.Location = new System.Drawing.Point(548, 195);
             this.btnMultiply.Name = "btnMultiply";
             this.btnMultiply.Size = new System.Drawing.Size(138, 70);
             this.btnMultiply.TabIndex = 3;
-            this.btnMultiply.Text = "button4";
+            this.btnMultiply.Text = "*";
             this.btnMultiply.UseVisualStyleBackColor = true;
             this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
