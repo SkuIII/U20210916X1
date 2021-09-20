@@ -52,5 +52,15 @@ namespace ACMECalc
 
             listBox1.Items.Add($"{i} * {j} = {i * j}");
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

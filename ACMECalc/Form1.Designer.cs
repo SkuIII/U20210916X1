@@ -91,6 +91,7 @@ namespace ACMECalc
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 5;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // listBox1
             // 
@@ -114,6 +115,7 @@ namespace ACMECalc
             this.Controls.Add(this.button1);
             this.Name = "Form1";
             this.Text = "ACME Calc 1.0";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
