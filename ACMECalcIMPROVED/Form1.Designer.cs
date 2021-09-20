@@ -47,7 +47,6 @@ namespace ACMECalcIMPROVED
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // btnSubtract
             // 
@@ -58,7 +57,6 @@ namespace ACMECalcIMPROVED
             this.btnSubtract.TabIndex = 1;
             this.btnSubtract.Text = "-";
             this.btnSubtract.UseVisualStyleBackColor = true;
-            this.btnSubtract.Click += new System.EventHandler(this.btnSubtract_Click);
             // 
             // btnDivision
             // 
@@ -69,7 +67,6 @@ namespace ACMECalcIMPROVED
             this.btnDivision.TabIndex = 2;
             this.btnDivision.Text = "/";
             this.btnDivision.UseVisualStyleBackColor = true;
-            this.btnDivision.Click += new System.EventHandler(this.btnDivision_Click);
             // 
             // btnMultiply
             // 
@@ -80,7 +77,6 @@ namespace ACMECalcIMPROVED
             this.btnMultiply.TabIndex = 3;
             this.btnMultiply.Text = "*";
             this.btnMultiply.UseVisualStyleBackColor = true;
-            this.btnMultiply.Click += new System.EventHandler(this.btnMultiply_Click);
             // 
             // listBox1
             // 
